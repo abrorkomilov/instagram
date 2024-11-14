@@ -1,0 +1,8 @@
+.venv
+db.splite3
+config.py
+*/migrations/
+media/
+*/*/__pycache__/
+*/*/migrations/
+*/__pycache__/
