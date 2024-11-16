@@ -1,21 +1,22 @@
 Registratsiya / Sign Up
-User model
+User model +
 Login / Sign In
 Logout   / Sign Out
 
 
 Add Image / Post
-Photo model
+Photo model +
 Link to Photo
-Like model
+Like model +
 Comment to Photo
-Comment model 
+Comment model  +
 Subscribe
-Subscribe model
-Tags model
+Subscribe model +
+Tags model +
 Search
 Bookmark
+Bookmark model +
 Recommendation
 Direct
-hat model
-Message madel
+hat model +
+Message madel +

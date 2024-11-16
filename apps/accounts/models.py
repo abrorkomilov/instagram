@@ -15,9 +15,6 @@ class Chat(BaseModel):
     users = models.ManyToManyField(User, related_name='user_chats')
 
 class Message(BaseModel):
-    chat = models.ForeignKey(Chat, on_delete=models.CASCADE
-                             related_name='chat_messages')
-    author = models.ForeignKey(User, on_delete=models.SET_NULL
-                               null=True, related_name='user_messages')
+    chat = models.ForeignKey(Chat, on_delete=models.CASCADE, related_name='chat_messages')
+    author = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, related_name='user_messages')
     text = models.TextField()
-    
